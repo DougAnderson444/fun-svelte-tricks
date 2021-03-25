@@ -40,7 +40,7 @@
     loop(1500);
 </script>
 
-<svg>
+<svg style={`height: ${strokeSize}; width: ${strokeSize}`}>
     {#if expanding}
         <circle
             cx={x}
